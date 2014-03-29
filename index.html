@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Pagination.js</title>
+	<!------Load jQuery ------->
+	<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="pagination.js"></script>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<style>
+	body {
+	  padding-top: 50px;
+	  padding-bottom: 20px;
+	}
+	</style>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Pagination.js</a>
+			</div>
+		</div>
+	</div>
+<div style="margin-top:10px;" class="page-header text-center">
+	<h1 style="padding-left: 20px;margin-top:10px;">Pagination built on <a target="_blank" href="http://getbootstrap.com/">twitter bootstrap</a> and <a target="_blank" href="http://jquery.com/">jQuery</a>.</h1>
+</div>
+<div style=" max-width: 400px; margin: auto; ">
+	<div class="list-group">
+		<a id="list_item-1" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; One
+		</a>
+		<a id="list_item-2" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Two
+		</a>
+		<a id="list_item-3" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Three
+		</a>
+		<a id="list_item-4" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Four
+		</a>
+		<a id="list_item-5" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Five
+		</a>
+		<a id="list_item-6" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Six
+		</a>
+		<a id="list_item-7" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Seven
+		</a>
+		<a id="list_item-8" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Eight
+		</a>
+		<a id="list_item-9" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Nine
+		</a>
+		<a id="list_item-10" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Ten
+		</a>
+		<a id="list_item-11" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Eleven
+		</a>
+		<a id="list_item-12" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Twelve
+		</a>
+		<a id="list_item-13" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Thirteen
+		</a>
+		<a id="list_item-14" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Fourteen
+		</a>
+		<a id="list_item-15" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Fifteen
+		</a>
+		<a id="list_item-16" href="#" class="list-group-item">
+			<i class="glyphicon glyphicon-ok"></i> &nbsp;&nbsp; Sixteen
+		</a>
+	</div>
+	<ul style="margin-top:0px" class="pagination">
+	  <li id="previous_page" class="disabled"><a href="javascript:void(0);">&laquo;</a></li>	
+	  <li id="page-1" class="active page_num"><a href="javascript:void(0);">1</a></li>
+	  <li id="page-2" class="page_num"><a href="javascript:void(0);">2</a></li>
+	  <li id="page-3" class="page_num"><a href="javascript:void(0);">3</a></li>
+	  <li id="page-4" class="page_num"><a href="javascript:void(0);">4</a></li>
+	  <li id="next_page"><a href="javascript:void(0);">&raquo;</a></li>
+	</ul>
+</div>
+</body>
+</html>
